@@ -14,7 +14,7 @@ const StoryCard: React.FC<StoryCardProps> = ({ id, image, title, synopsis }) => 
       <img className="w-full h-48 object-cover" src={image} alt={title} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-gray-800 hover:text-orange-700 cursor-pointer transition duration-500">
-          <Link to={`/story/${id}`}>{title}</Link>
+          <Link to={`/Uma-Boa-Historia/story/${id}`}>{title}</Link>
         </div>
         <p className="text-gray-700 text-base">
           {synopsis}

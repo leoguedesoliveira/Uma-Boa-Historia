@@ -16,7 +16,7 @@ export default function MenuBar() {
                         {/* <a href="#home" className="text-gray-800 hover:text-orange-700 transition duration-300">
                         Home
                         </a> */}
-                        <Link to={'/'} className="text-gray-800 hover:text-orange-700 transition duration-300">Home</Link>
+                        <Link to={'/Uma-Boa-Historia'} className="text-gray-800 hover:text-orange-700 transition duration-300">Home</Link>
                     </li>
                     <li>
                         <a href="#contribuicao" className="text-gray-800 hover:text-orange-700 transition duration-300">
