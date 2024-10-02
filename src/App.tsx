@@ -6,10 +6,10 @@ import HistoryPage from './pages/historyPage/HistoryPage';
 function App() {
 
   return (
-    <Router basename='/Uma-Boa-Historia'>
+    <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/story/:id' element={<HistoryPage />} />
+        <Route path='/Uma-Boa-Historia' element={<Home />} />
+        <Route path='/Uma-Boa-Historia/story/:id' element={<HistoryPage />} />
       </Routes>
     </Router>
   )
