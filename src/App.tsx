@@ -6,7 +6,7 @@ import HistoryPage from './pages/historyPage/HistoryPage';
 function App() {
 
   return (
-    <Router>
+    <Router basename='/Uma-Boa-Historia'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/story/:id' element={<HistoryPage />} />
