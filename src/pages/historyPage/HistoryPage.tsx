@@ -16,7 +16,7 @@ const StoryPage: React.FC = () => {
 
   useEffect(() => {
     if (id) {
-      fetch('/stories.json')
+      fetch(`${import.meta.env.BASE_URL}/assets/stories.json`)
         .then(response => {
           if (!response.ok) {
             throw new Error('Erro ao carregar as histórias.');
